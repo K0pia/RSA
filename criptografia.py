@@ -11,7 +11,7 @@ class Criptografia(object):
 
     def encripta_mensagem(self):
         s = input("Digite a mensagem: \t")
-        while len(s) >= 10:
+        while len(s) > 128:
             print("Você ultrapassou o limite de caracteres.")
             s = input("Digite a mensagem novamente: \t")
         print('='*5 + ' Digite as chaves públicas: ' + '='*5)
