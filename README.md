@@ -1,6 +1,6 @@
-# Sistema simples de criptografia do Algoritmo RSA
+# Criptografia do Algoritmo RSA
 
-## O sistema gera números primos grandes, chaves públicas e privada, encripta e decripta com as chaves.
+## O sistema gera números primos grandes até 128 bits, chaves públicas e privada, encripta e decripta com as chaves.
 
 ### Funcionamento
 
